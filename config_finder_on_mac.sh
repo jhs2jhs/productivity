@@ -1,4 +1,8 @@
-# install termhere: https://hbang.ws/apps/termhere/
+# install termhere: 
+## https://hbang.ws/apps/termhere/
+## https://github.com/hbang/TermHere
+brew install carthage
+
 
 # install go2shell: 
 ## https://itunes.apple.com/gb/app/go2shell/id445770608?mt=12 
