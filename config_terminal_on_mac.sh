@@ -41,6 +41,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # vi ~/.zshrc
 # modify : plugins
 
+
+##########################################################################
+# add zsh_reload
+##########################################################################
+## plugins=(.. zsh_reload )
+## use 'src' to reload session
+
+
 ##########################################################################
 # hide "user@hostname"
 ##########################################################################
@@ -74,6 +82,24 @@ chmod go-w '/usr/local/share'
 ## Enable it in your .zshrc by adding it to your plugin list and reloading the completion:
 ## plugins=(… zsh-completions)
 ## autoload -U compinit && compinit
+
+##########################################################################
+# install zsh-git-prompt
+##########################################################################
+brew install zsh-git-prompt
+echo "source /usr/local/opt/zsh-git-prompt/zshrc.sh" >> ~/.zshrc
+
+##########################################################################
+# install zsh-navigation-tools
+##########################################################################
+brew install zsh-navigation-tools
+echo "source /usr/local/share/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh" >> ~/.zshrc
+
+##########################################################################
+# install zsh-history-substring-search
+##########################################################################
+brew install zsh-history-substring-search
+echo "source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh" >> ~/.zshrc
 
 ##########################################################################
 # install nerd font
