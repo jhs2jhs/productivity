@@ -8,3 +8,6 @@ http://wangchujiang.com/awesome-mac/index.zh.html#mac%E8%BD%AF%E4%BB%B6%E4%B8%8B
 https://www.monityapp.com/helper 
 
 https://deepzz.com/post/mac-software-recommend.html 
+
+https://sspai.com/post/32453
+
