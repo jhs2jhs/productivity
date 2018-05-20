@@ -1,3 +1,6 @@
+iStat Menus
+http://xclient.info/s/istat-menus-for-mac.html?t=3b42dd74c81e1e44a7b9bb8b624bdf6ae42391cb
+
 
 https://support.apple.com/en-us/HT201585
 https://www.coconut-flavour.com/coconutbattery/
