@@ -1,3 +1,13 @@
+
+## install brew # https://brew.sh/
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# install casl-brew # https://caskroom.github.io/
+brew tap caskroom/cask
+# install cake-brew # https://www.cakebrew.com/
+brew cask install cakebrew
+
+
+
 ##########################################################################
 # install term2
 ##########################################################################
