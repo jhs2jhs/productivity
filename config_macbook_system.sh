@@ -6,3 +6,5 @@ https://www.coconut-flavour.com/coconutbattery/
 http://wangchujiang.com/awesome-mac/index.zh.html#mac%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD%E7%BD%91%E7%AB%99
 
 https://www.monityapp.com/helper 
+
+https://deepzz.com/post/mac-software-recommend.html 
