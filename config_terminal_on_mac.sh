@@ -100,10 +100,10 @@ brew install zsh-git-prompt
 echo "source /usr/local/opt/zsh-git-prompt/zshrc.sh" >> ~/.zshrc
 
 ##########################################################################
-# install zsh-navigation-tools
+# install zsh-navigation-tools, this current does not work, so do not use at this moment. 
 ##########################################################################
-brew install zsh-navigation-tools
-echo "source /usr/local/share/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh" >> ~/.zshrc
+#brew install zsh-navigation-tools
+#echo "source /usr/local/share/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh" >> ~/.zshrc
 
 ##########################################################################
 # install zsh-history-substring-search
