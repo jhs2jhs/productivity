@@ -118,7 +118,7 @@ brew tap caskroom/fonts
 brew cask install font-hack-nerd-font
 echo 'POWERLEVEL9K_MODE="nerdfont-complete"' >> ~/.zshrc
 # https://al03.github.io/%E8%AE%A9%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%9B%B4%E7%82%AB%E9%85%B7/
-# change font (both ascii and non-ascii) in iterm2 into "Knack Nerd Font"
+# change font (both ascii and non-ascii) in iterm2 into "hack Nerd Font"
 
 
 ##########################################################################
@@ -136,7 +136,7 @@ echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >> ~/.zshrc
 ##########################################################################
 ##########################################################################
 ##########################################################################
-# backup
+# backup, no need to execute bellow
 ##########################################################################
 
 # install powerline fonts
