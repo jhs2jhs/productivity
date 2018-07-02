@@ -129,7 +129,8 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >> ~/.zshrc
 
 
-
+# configure zsh as the default shell
+chsh -s $(which zsh)
 
 
 ##########################################################################
