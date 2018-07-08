@@ -132,6 +132,19 @@ echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >> ~/.zshrc
 # configure zsh as the default shell
 chsh -s $(which zsh)
 
+# plugs should looks like this:
+
+plugins=(
+  git
+  zsh_reload
+  zsh-completions
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  zsh-syntax-highlighting-filetypes
+)
+
+
+
 
 ##########################################################################
 ##########################################################################
