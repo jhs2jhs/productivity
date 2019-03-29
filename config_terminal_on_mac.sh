@@ -12,7 +12,7 @@ brew cask install cakebrew
 # install term2
 ##########################################################################
 ## http://www.iterm2.com/downloads.html
-brew cask install term2
+brew cask install iterm2
 
 
 ##########################################################################
