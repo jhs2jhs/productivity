@@ -124,6 +124,8 @@ echo 'POWERLEVEL9K_MODE="nerdfont-complete"' >> ~/.zshrc
 ##########################################################################
 # install powerlevel9k theme
 ##########################################################################
+brew tap sambadevi/powerlevel9k
+brew install powerlevel9k
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 ## modify ~/.zshrc: 
 echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >> ~/.zshrc
