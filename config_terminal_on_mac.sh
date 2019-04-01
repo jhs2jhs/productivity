@@ -77,6 +77,7 @@ echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # install zsh-autosuggestions.zsh
 ##########################################################################
 ## https://github.com/zsh-users/zsh-autosuggestions
+#git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 brew install zsh-autosuggestions
 echo "source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 
@@ -88,6 +89,8 @@ brew install zsh-completions
 echo "fpath=(/usr/local/share/zsh-completions $fpath)" >> ~/.zshrc
 rm -f ~/.zcompdump; compinit
 chmod go-w '/usr/local/share'
+git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
+autoload -U compinit && compinit
 # git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
 ## Enable it in your .zshrc by adding it to your plugin list and reloading the completion:
 ## plugins=(… zsh-completions)
@@ -131,6 +134,10 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >> ~/.zshrc
 
 
+#https://github.com/zplug/zplug
+brew install zplug
+
+
 # configure zsh as the default shell
 chsh -s $(which zsh)
 
@@ -141,7 +148,7 @@ plugins=(
   zsh_reload
   zsh-completions
   zsh-syntax-highlighting
-  zsh-autosuggestions
+  #zsh-autosuggestions
   zsh-syntax-highlighting-filetypes
 )
 
