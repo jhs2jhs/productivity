@@ -12,3 +12,9 @@
 9. cmd: adb reboot bootloader
 8. cmd: fastboot flash recovery twrp.img
 9. cmd: fastboot reboot
+
+9. https://xiaomi.eu/community/threads/mi-8-rom-install-instructions.46902/
+9. adb push xiaomi.eu_multi_MI8_V10.0.6.0.OEACNFH_v10-8.1.zip /sdcard/
+9. adb push Magisk-uninstaller-20180921.zip /sdcard/
+9. adb shell ls -l /sdcard/
+9. adb push xiaomi.eu_multi_HMNote7Pro_9.11.7_v11-9.zip /sdcard/downloaded_rom
