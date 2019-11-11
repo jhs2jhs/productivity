@@ -9,4 +9,6 @@
 7. download rom: https://xiaomi.eu/community/threads/miui-11-0-stable-release.52628/
 8. entry fastmode mode: 
 9. cmd: fastboot devices
+9. cmd: adb reboot bootloader
 8. cmd: fastboot flash recovery twrp.img
+9. cmd: fastboot reboot
