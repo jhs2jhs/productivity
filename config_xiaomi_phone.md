@@ -6,3 +6,7 @@
 4. 下载：miflash_unlock-3.5.719.27
 5. fastboot mode to unlock the phone
 
+7. download rom: https://xiaomi.eu/community/threads/miui-11-0-stable-release.52628/
+8. entry fastmode mode: 
+9. cmd: fastboot devices
+8. cmd: fastboot flash recovery twrp.img
