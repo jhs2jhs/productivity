@@ -18,3 +18,6 @@
 9. adb push Magisk-uninstaller-20180921.zip /sdcard/
 9. adb shell ls -l /sdcard/
 9. adb push xiaomi.eu_multi_HMNote7Pro_9.11.7_v11-9.zip /sdcard/downloaded_rom
+
+9. https://www.xiaomitool.com/V2/
+9. https://forum.xda-developers.com/Mi-9/how-to/guide-xiaomitool-v2-flashing-eea-ru-cn-t3934966
