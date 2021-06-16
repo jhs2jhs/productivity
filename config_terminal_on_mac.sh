@@ -2,9 +2,9 @@
 ## install brew # https://brew.sh/
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # install casl-brew # https://caskroom.github.io/
-brew tap caskroom/cask
+brew tap homebrew/cask
 # install cake-brew # https://www.cakebrew.com/
-brew cask install cakebrew
+brew install cakebrew
 
 
 
@@ -12,7 +12,7 @@ brew cask install cakebrew
 # install term2
 ##########################################################################
 ## http://www.iterm2.com/downloads.html
-brew cask install iterm2
+brew install iterm2
 
 
 ##########################################################################
@@ -117,8 +117,8 @@ echo "source /usr/local/share/zsh-history-substring-search/zsh-history-substring
 ##########################################################################
 # install nerd font
 ##########################################################################
-brew tap caskroom/fonts 
-brew cask install font-hack-nerd-font
+brew tap homebrew/cask-fonts
+brew install font-hack-nerd-font
 echo 'POWERLEVEL9K_MODE="nerdfont-complete"' >> ~/.zshrc
 # https://al03.github.io/%E8%AE%A9%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%9B%B4%E7%82%AB%E9%85%B7/
 # change font (both ascii and non-ascii) in iterm2 into "hack Nerd Font"
@@ -130,8 +130,11 @@ echo 'POWERLEVEL9K_MODE="nerdfont-complete"' >> ~/.zshrc
 brew tap sambadevi/powerlevel9k
 brew install powerlevel9k
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ## modify ~/.zshrc: 
 echo 'ZSH_THEME="powerlevel9k/powerlevel9k"' >> ~/.zshrc
+echo 'ZSH_THEME="powerlevel10k/powerlevel10k"' >> ~/.zshrc
+## https://gist.github.com/kevin-smets/8568070
 
 
 #https://github.com/zplug/zplug
@@ -140,6 +143,7 @@ brew install zplug
 
 # configure zsh as the default shell
 chsh -s $(which zsh)
+sudo sh -c "echo $(which zsh) >> /etc/shells"
 
 # plugs should looks like this:
 
